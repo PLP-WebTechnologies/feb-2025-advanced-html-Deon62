@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLP Assignment - Kenya Edition</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Top 5 Kenyan Dishes</h2>
+    <ol type="I">
+        <li>Ugali and Sukuma Wiki</li>
+        <li>Nyama Choma</li>
+        <li>Chapati and Beans</li>
+        <li>Githeri</li>
+        <li>Mandazi</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Beautiful Kenyan Landscape</h2>
+    <img src="https://images.pexels.com/photos/460621/pexels-photo-460621.jpeg" alt="Kenya landscape" width="600">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wanjiku Mwangi</td>
+                <td>Westlands, Nairobi</td>
+                <td>+254712345678</td>
+                <td>wanjiku.mwangi@example.co.ke</td>
+            </tr>
+            <tr>
+                <td>Otieno Odhiambo</td>
+                <td>Milimani, Kisumu</td>
+                <td>+254798765432</td>
+                <td>otieno.odhiambo@example.co.ke</td>
+            </tr>
+            <tr>
+                <td>Mutiso Kilonzo</td>
+                <td>Machakos Town, Machakos</td>
+                <td>+254701112233</td>
+                <td>mutiso.k@example.co.ke</td>
+            </tr>
+            <tr>
+                <td>Nafula Chebet</td>
+                <td>Eldoret, Uasin Gishu</td>
+                <td>+254724556677</td>
+                <td>nafula.chebet@example.co.ke</td>
+            </tr>
+            <tr>
+                <td>Kamau Njuguna</td>
+                <td>Thika, Kiambu</td>
+                <td>+254734889900</td>
+                <td>kamau.njuguna@example.co.ke</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Student Registration Form</h2>
+    <form action="#" method="POST">
+
+        <!-- Name -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="e.g. Achieng Atieno" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="e.g. achieng.atieno@example.co.ke" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" required minlength="6"><br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="county">Select Your County:</label><br>
+        <select id="county" name="county" required>
+            <option value="">-- Select County --</option>
+            <option value="nairobi">Nairobi</option>
+            <option value="mombasa">Mombasa</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="nakuru">Nakuru</option>
+            <option value="eldoret">Uasin Gishu</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Skills (select all that apply):</label><br>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" name="skills" value="JavaScript">
+        <label for="js">JavaScript</label>
+        <input type="checkbox" id="python" name="skills" value="Python">
+        <label for="python">Python</label><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Multimedia Section -->
+    <h2>Listen to Kenyan Music</h2>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Watch a Safari Video</h2>
+    <video width="600" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
